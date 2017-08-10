@@ -1,0 +1,18 @@
+body {
+    background-color: cadetblue;
+}
+.head-style {
+    width: 300px;
+    color: blueviolet;
+    font-size: 22px;
+}
+.label-style {
+    width: 300px;
+    color: yellow;
+    font-size: 18px;
+}
+.button-style {
+    width: 400px;
+    background-color: black;
+    color: white;
+}

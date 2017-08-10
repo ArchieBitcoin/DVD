@@ -1,0 +1,29 @@
+{
+  "name": "dvd",
+  "version": "1.0.0",
+  "description": "Stolen DVD Project",
+  "main": "index.js",
+  "author": "Vuyani",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "/Users/Sydwell/AppData/Roaming/npm/tsc -p ./",
+    "dev": "lite-server",
+    "copy": "xcopy /s src\\*.* dist\\*.* /y && del dist\\js\\*.ts"
+  },
+  "keywords": [
+    "DVD",
+    "CD",
+    "SHOP"
+  ],
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "tslint": "^5.2.0",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "@types/jquery": "^2.0.43",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
